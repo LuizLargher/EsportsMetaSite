@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Rockseat</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="./img/logo.png" alt="Logo Esports NLW">
+        </header>
+        <main>
+            <section>
+                <div>
+                    <h2>
+                        Assistente de Meta
+                    </h2>
+                    <p>
+                        Pergunte sobre estratégias, builds e dicas para seus jogos...
+                    </p>
+                    <form id="form">
+                        <input type="password" name="keypass" id="apikey" placeholder="Digite a chave API..."
+                            required>
+                        <select name="games" id="gameSelect">
+                            <option value="">
+                                Selecione um jogo
+                            </option>
+                            <option value="lol">
+                                League of Legends
+                            </option>
+                            <option value="vavas">
+                                Valorant
+                            </option>
+                            <option value="cs2">
+                                Counter Striker 2
+                            </option>
+                            <option value="ff">
+                                Free Fire
+                            </option>
+                        </select>
+                        <input type="text" name="question" id="question" placeholder="Ex: Melhor build para Jinx ADC..." required>
+                        <button type="submit">
+                            PERGUNTAR
+                        </button>
+                    </form>
+                    <div id="aiAnswer" class="aiAnswer hidden">
+                        <div class="content"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+    <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
