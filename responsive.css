@@ -1,7 +1,0 @@
-@media (max-width: 576px) {
-    form #apikey,
-    form select,
-    form #question {
-        width: 100%; /* Força cada input a ocupar 100% da largura, empilhando-os */
-    }
-}

@@ -173,17 +173,31 @@ body {
                                 }
                             }
 
-                            li {
+                            ol li {
                                 color: rgb(255, 255, 255);
                                 list-style: none;
                                 padding: 10px 0px 10px 40px;
-                                background-image: url('../EsportsMetaSite/img/game-icon.png');
+                                background-image: url('./img/game-icon.png');
                                 background-repeat: no-repeat;
                                 background-size: 32px 32px;
                                 background-position: 0 50%;
                             }
 
-                            li strong {
+                            ol li strong {
+                                color: #04cc97;
+                            }
+
+                            ul li {
+                                color: rgb(255, 255, 255);
+                                list-style: none;
+                                padding: 10px 0px 10px 40px;
+                                background-image: url('./img/mario-star.png');
+                                background-repeat: no-repeat;
+                                background-size: 32px 32px;
+                                background-position: 0 50%;
+                            }
+
+                            ul li strong {
                                 color: #04cc97;
                             }
                         }
