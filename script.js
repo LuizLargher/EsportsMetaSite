@@ -99,7 +99,7 @@ async function submitForm(event) {
         alert('Ocorreu um erro ao buscar a resposta da IA. Por favor, tente novamente mais tarde.');
     } finally {
         submitButton.disabled = false
-        submitButton.textContent = "Perguntar"
+        submitButton.textContent = "PERGUNTAR"
         submitButton.classList.remove('loading')
     }
 
